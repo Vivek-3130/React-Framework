@@ -1,0 +1,10 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.text-center.my-3.text-weight-bold { /* Added text-weight-bold class */
+    background: linear-gradient(  rgb(255, 255, 255), rgb(255, 0, 174)); /* Replace with your desired colors */
+    color: transparent; /* Makes text invisible but keeps its shape */
+    -webkit-background-clip: text; /* Enables gradient on text for Chrome, Safari */
+    background-clip: text; /* Enables gradient on text for most browsers */
+}

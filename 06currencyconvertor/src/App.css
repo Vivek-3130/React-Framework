@@ -1,0 +1,12 @@
+.gradient-text {
+    background: linear-gradient(#dd6b08 0%, #000000 100%);
+    background-clip: text; /* Standard property for compatibility */
+    -webkit-background-clip: text; /* Vendor prefix for WebKit browsers */
+    -webkit-text-fill-color: transparent;
+  }
+
+  .styled-heading {
+    padding: 1rem 2rem; /* Adjust padding as desired */
+    outline: 2px solid #ddd; /* Adjust outline width and color */
+    outline-offset: 2px; /* Optional: create space between outline and text */
+  }
