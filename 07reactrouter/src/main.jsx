@@ -33,7 +33,7 @@ const router = createBrowserRouter(
       {/* For advance pre-processing at hovering */}
       {/* <Route path="github" element={<Github />} loader={githubInfoLoader} /> */}
       <Route path="github" element={<Github />}/>
-      <Route path="*" element={<div>Not Founf</div>} />
+      <Route path="*" element={<div>Not Found</div>} />
     </Route>
   )
 );
