@@ -6,10 +6,10 @@ import useCurrencyInfo from "./hooks/useCurrencyInfo";
 import { InputBox } from "./components/index.js";
 
 function App() {
-  const [amount, setAmount] = useState(0);
-  const [from, setFrom] = useState("inr");
-  const [to, setTo] = useState("usd");
-  const [convertedAmount, setConvertedAmount] = useState(0);
+  const [amount, setAmount] = useState(0); //for input of the amount
+  const [from, setFrom] = useState("inr"); //for setting up the input type of currency
+  const [to, setTo] = useState("usd"); //Output currency value
+  const [convertedAmount, setConvertedAmount] = useState(0); //for the convertion of amount
 
   const currencyInfo = useCurrencyInfo(from);
   const options = Object.keys(currencyInfo);
