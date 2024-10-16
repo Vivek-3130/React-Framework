@@ -16,7 +16,6 @@ import Post from "./pages/Post.jsx";
 import Protected from './components/AuthLayout.jsx'
 
 
-
 const router = createBrowserRouter([
   {
     path : "/",
